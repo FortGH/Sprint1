@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css1">
+    </head>
+    <body>Hola mundo
+        <div class="main-box">
+            <div class="blue-box">
+                <div class="green-box-1"></div>
+                <div class="green-box"></div>
+                <div class="green-box-1"></div>
+            </div>
+            <div class="orange-box">
+                <div class="yellow-box"></div>
+            </div>
+        </div>
+        <div class="main-box-1">
+            <div class="blue-dark-box">
+                <div class="transparent-box">
+                    <div class="gray-box"></div>
+                    <div class="gray-box"></div>
+                </div>
+                <div class="transparent-box">
+                    <div class="gray-box"></div>
+                    <div class="gray-box"></div>
+                </div>
+                <div class="transparent-box">
+                    <div class="purple-box"></div>
+                </div>
+            
+               
+            </div>
+            <div class="red-box">
+                <div class="pink-box"></div>
+                <div class="pink-box-1"></div>
+            </div>
+        </div>
+        <div class="main-box">
+            <div class="gold-box"></div>
+        </div>
+    </body>
+</html>
