@@ -44,6 +44,4 @@ echo '</br>';
 
 $triangulo = new Triangulo(5,6);
 $triangulo -> area();
-
-//revisar codigo por que no va.
 ?>
