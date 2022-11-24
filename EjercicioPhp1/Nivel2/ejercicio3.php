@@ -1,18 +1,17 @@
 <?php
-$chocolate = 1;
-$chiclo = 0.5;
-$caramelo = 1.5;
-
 echo "Total de la compra: " . 
-choco($chocolate,3) + chic($chiclo, 1) + cara($caramelo, 2) . "€";
+chocolate(3) + chiclo(1) + caramelo(2) . "€";
 
-function choco($chocolate, $cantidad){
+function chocolate($cantidad){
+    $chocolate = 1;
     return $chocolate * $cantidad;
 }
-function chic($chiclo, $cantidad){
+function chiclo($cantidad){
+    $chiclo = 0.5;
     return $chiclo * $cantidad;
 }
-function cara($caramelo, $cantidad){
+function caramelo($cantidad){
+    $caramelo = 1.5;
     return $caramelo * $cantidad;
 }
 ?>

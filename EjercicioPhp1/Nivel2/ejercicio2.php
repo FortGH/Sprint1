@@ -1,5 +1,5 @@
 <?php
-$llamada = 5;
+$llamada = 10;
 
 echo "El costo de la llamada es de " . 
       coste($llamada) . " centimos";
@@ -10,9 +10,7 @@ function coste($llamada){
     if ($llamada <= 3) {
         $coste = $coste;
     }elseif ($llamada > 3) {
-        for($i = 3; $i < $llamada; $i ++) {
-            $coste += 5; 
-        }
+       $coste += ($llamada - 3) * 5;
     }
     return $coste;
 }

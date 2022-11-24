@@ -1,5 +1,5 @@
 <?php
-class Employe {
+class Employee {
     //atributos
      public $nombre;
      public $sueldo;
@@ -18,12 +18,7 @@ class Employe {
         }else {
             $resp = $this -> nombre . " no debe pagar impustos.";
         }
-        echo $resp;
+       return $resp;
     }
-
-   
 }
-$empleado = new Employe();
-$empleado -> inicializar("Pedro",7000);
-$empleado -> print();
 ?>
